@@ -1,0 +1,21 @@
+#feature {
+  display: grid;
+  grid-template-columns: 10rem 50rem 20rem;
+}
+
+#feature .feature-title h1 {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#feature .feature-title .color {
+  width: 5rem;
+  height: 0.2rem;
+  background: var(--gradient-text);
+  -webkit-text-fill-color: transparent;
+}
+
+#feature .feature-text h1 {
+  font-size: 1rem;
+  color: var(--color-text);
+}
