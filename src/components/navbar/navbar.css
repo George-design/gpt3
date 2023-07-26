@@ -1,4 +1,61 @@
 #navbar {
   display: grid;
-  grid-template-columns: 2rem 8rem 3rem;
+  grid-template-columns: 10rem 60rem 23rem;
+}
+
+#navbar .navbar-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#navbar nav {
+  color: #fff;
+  /* border: 1px solid red; */
+}
+
+#navbar nav ul {
+  display: flex;
+}
+
+#navbar nav ul li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+#navbar nav ul li a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbar .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#navbar .login input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 7rem;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+#navbar .login #sign-in {
+  margin-right: 0.5rem;
+  background: none;
+  border: none;
+}
+
+#navbar .login #sign-out {
+  background: var(--color-subtext);
+  border: none;
 }

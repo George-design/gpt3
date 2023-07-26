@@ -10,16 +10,26 @@ const Navbar = () => {
       </div>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>What Is GPT3?</li>
-          <li>Open AI</li>
-          <li>Case Studies</li>
-          <li>Library</li>
+          <li>
+            <a href='#'>Home</a>
+          </li>
+          <li>
+            <a href='#'>What Is GPT3?</a>
+          </li>
+          <li>
+            <a href='#'>Open AI</a>
+          </li>
+          <li>
+            <a href='#'>Case Studies</a>
+          </li>
+          <li>
+            <a href='#'>Library</a>
+          </li>
         </ul>
       </nav>
       <div className='login'>
-        <input type='text' value='Sign In' />
-        <input type='text' value='Sign Up' />
+        <input type='text' value='Sign In' id='sign-in' />
+        <input type='text' value='Sign Up' id='sign-out' />
       </div>
     </div>
   );
