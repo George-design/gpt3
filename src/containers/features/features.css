@@ -5,3 +5,25 @@
 #features {
   padding: 0 5rem;
 }
+
+#features .features-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#features title h1 {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#features title .color {
+  width: 5rem;
+  height: 0.2rem;
+  background: var(--gradient-text);
+  -webkit-text-fill-color: transparent;
+}
+
+/* #feature .feature-text h1 {
+  font-size: 1rem;
+  color: var(--color-text);
+} */

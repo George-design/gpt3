@@ -17,9 +17,10 @@ function App() {
         <Navbar />
         <Header />
       </div>
+
+      <Features />
       <Brand />
       <WhatGPT3 />
-      <Features />
       <Possibility />
       <CTA />
       <Blog />

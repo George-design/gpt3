@@ -1,21 +1,37 @@
 #feature {
-  display: grid;
-  grid-template-columns: 10rem 50rem 20rem;
+  display: flex;
+}
+
+#feature .feature-title {
+  flex: 1;
 }
 
 #feature .feature-title h1 {
   font-size: 1.3rem;
   color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 #feature .feature-title .color {
-  width: 5rem;
+  width: 3rem;
   height: 0.2rem;
   background: var(--gradient-text);
   -webkit-text-fill-color: transparent;
 }
 
+#feature .feature-text {
+  font-size: 1rem;
+  color: var(--color-text);
+  display: flex;
+  flex: 1;
+}
+
 #feature .feature-text h1 {
   font-size: 1rem;
   color: var(--color-text);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
