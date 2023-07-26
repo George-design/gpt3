@@ -1,0 +1,61 @@
+#header {
+  display: grid;
+  grid-template-columns: 50rem 40rem;
+  padding: 2rem 0 2rem 0;
+}
+
+#header .header-image img {
+  width: 100%;
+}
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#header .header-content h1 {
+  /* background: var(--gradient-text); */
+  font-size: 4rem;
+}
+
+#header .header-content p {
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+#header .header-content {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+#header .header-content .header-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+#header .header-content .header-footer p {
+  font-size: 1rem;
+}
+
+#header .header-content #email {
+  padding: 0.7rem 0.5rem;
+  width: 25rem;
+  font-size: 1.1rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  border: none;
+}
+
+#header .header-content #btn {
+  padding: 0.7rem 0.5rem;
+  width: 10rem;
+  font-size: 1.1rem;
+  background: var(--color-subtext);
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  border: none;
+}
